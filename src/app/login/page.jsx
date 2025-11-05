@@ -45,7 +45,7 @@ export default function LoginPage() {
     setError(null);
 
     try {
-      const response = await fetch('http://localhost:3001/api/colaboradores/login', {
+      const response = await fetch('http://3.143.228.227:3001/api/colaboradores/login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
